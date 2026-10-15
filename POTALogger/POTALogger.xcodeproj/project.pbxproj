@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E9ED7C162DA3228F00A36272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9ED7BF82DA3228E00A36272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9ED7BFF2DA3228E00A36272;
+			remoteInfo = POTALogger;
+		};
+		E9ED7C202DA3228F00A36272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9ED7BF82DA3228E00A36272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9ED7BFF2DA3228E00A36272;
+			remoteInfo = POTALogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9ED7C002DA3228E00A36272 /* POTALogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POTALogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ED7C152DA3228F00A36272 /* POTALoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POTALoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ED7C1F2DA3228F00A36272 /* POTALoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POTALoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ED7C322DA3236A00A36272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E94556C52F82CAE9002276BE /* Exceptions for "POTALogger" folder in "POTALogger" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E9ED7BFF2DA3228E00A36272 /* POTALogger */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E9ED7C022DA3228E00A36272 /* POTALogger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E94556C52F82CAE9002276BE /* Exceptions for "POTALogger" folder in "POTALogger" target */,
+			);
+			path = POTALogger;
+			sourceTree = "<group>";
+		};
+		E9ED7C182DA3228F00A36272 /* POTALoggerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = POTALoggerTests;
+			sourceTree = "<group>";
+		};
+		E9ED7C222DA3228F00A36272 /* POTALoggerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = POTALoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9ED7BFD2DA3228E00A36272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ED7C122DA3228F00A36272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ED7C1C2DA3228F00A36272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9ED7BF72DA3228E00A36272 = {
+			isa = PBXGroup;
+			children = (
+				E9ED7C322DA3236A00A36272 /* Info.plist */,
+				E9ED7C022DA3228E00A36272 /* POTALogger */,
+				E9ED7C182DA3228F00A36272 /* POTALoggerTests */,
+				E9ED7C222DA3228F00A36272 /* POTALoggerUITests */,
+				E9ED7C012DA3228E00A36272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9ED7C012DA3228E00A36272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED7C002DA3228E00A36272 /* POTALogger.app */,
+				E9ED7C152DA3228F00A36272 /* POTALoggerTests.xctest */,
+				E9ED7C1F2DA3228F00A36272 /* POTALoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9ED7BFF2DA3228E00A36272 /* POTALogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ED7C292DA3228F00A36272 /* Build configuration list for PBXNativeTarget "POTALogger" */;
+			buildPhases = (
+				E9ED7BFC2DA3228E00A36272 /* Sources */,
+				E9ED7BFD2DA3228E00A36272 /* Frameworks */,
+				E9ED7BFE2DA3228E00A36272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E9ED7C022DA3228E00A36272 /* POTALogger */,
+			);
+			name = POTALogger;
+			packageProductDependencies = (
+			);
+			productName = POTALogger;
+			productReference = E9ED7C002DA3228E00A36272 /* POTALogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9ED7C142DA3228F00A36272 /* POTALoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ED7C2C2DA3228F00A36272 /* Build configuration list for PBXNativeTarget "POTALoggerTests" */;
+			buildPhases = (
+				E9ED7C112DA3228F00A36272 /* Sources */,
+				E9ED7C122DA3228F00A36272 /* Frameworks */,
+				E9ED7C132DA3228F00A36272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9ED7C172DA3228F00A36272 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9ED7C182DA3228F00A36272 /* POTALoggerTests */,
+			);
+			name = POTALoggerTests;
+			packageProductDependencies = (
+			);
+			productName = POTALoggerTests;
+			productReference = E9ED7C152DA3228F00A36272 /* POTALoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9ED7C1E2DA3228F00A36272 /* POTALoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ED7C2F2DA3228F00A36272 /* Build configuration list for PBXNativeTarget "POTALoggerUITests" */;
+			buildPhases = (
+				E9ED7C1B2DA3228F00A36272 /* Sources */,
+				E9ED7C1C2DA3228F00A36272 /* Frameworks */,
+				E9ED7C1D2DA3228F00A36272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9ED7C212DA3228F00A36272 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9ED7C222DA3228F00A36272 /* POTALoggerUITests */,
+			);
+			name = POTALoggerUITests;
+			packageProductDependencies = (
+			);
+			productName = POTALoggerUITests;
+			productReference = E9ED7C1F2DA3228F00A36272 /* POTALoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9ED7BF82DA3228E00A36272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E9ED7BFF2DA3228E00A36272 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E9ED7C142DA3228F00A36272 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E9ED7BFF2DA3228E00A36272;
+					};
+					E9ED7C1E2DA3228F00A36272 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E9ED7BFF2DA3228E00A36272;
+					};
+				};
+			};
+			buildConfigurationList = E9ED7BFB2DA3228E00A36272 /* Build configuration list for PBXProject "POTALogger" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9ED7BF72DA3228E00A36272;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9ED7C012DA3228E00A36272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9ED7BFF2DA3228E00A36272 /* POTALogger */,
+				E9ED7C142DA3228F00A36272 /* POTALoggerTests */,
+				E9ED7C1E2DA3228F00A36272 /* POTALoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9ED7BFE2DA3228E00A36272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ED7C132DA3228F00A36272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ED7C1D2DA3228F00A36272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9ED7BFC2DA3228E00A36272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ED7C112DA3228F00A36272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ED7C1B2DA3228F00A36272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9ED7C172DA3228F00A36272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9ED7BFF2DA3228E00A36272 /* POTALogger */;
+			targetProxy = E9ED7C162DA3228F00A36272 /* PBXContainerItemProxy */;
+		};
+		E9ED7C212DA3228F00A36272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9ED7BFF2DA3228E00A36272 /* POTALogger */;
+			targetProxy = E9ED7C202DA3228F00A36272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9ED7C272DA3228F00A36272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9ED7C282DA3228F00A36272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9ED7C2A2DA3228F00A36272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = POTALogger/POTALogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POTALogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 68Z6A6ACWF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POTALogger/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show nearby POTA parks and spots on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CamdenBopp.POTALogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9ED7C2B2DA3228F00A36272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = POTALogger/POTALogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POTALogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 68Z6A6ACWF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POTALogger/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show nearby POTA parks and spots on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CamdenBopp.POTALogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9ED7C2D2DA3228F00A36272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68Z6A6ACWF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CamdenBopp.POTALoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POTALogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POTALogger";
+			};
+			name = Debug;
+		};
+		E9ED7C2E2DA3228F00A36272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68Z6A6ACWF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CamdenBopp.POTALoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POTALogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POTALogger";
+			};
+			name = Release;
+		};
+		E9ED7C302DA3228F00A36272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68Z6A6ACWF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CamdenBopp.POTALoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POTALogger;
+			};
+			name = Debug;
+		};
+		E9ED7C312DA3228F00A36272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68Z6A6ACWF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CamdenBopp.POTALoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POTALogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9ED7BFB2DA3228E00A36272 /* Build configuration list for PBXProject "POTALogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED7C272DA3228F00A36272 /* Debug */,
+				E9ED7C282DA3228F00A36272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ED7C292DA3228F00A36272 /* Build configuration list for PBXNativeTarget "POTALogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED7C2A2DA3228F00A36272 /* Debug */,
+				E9ED7C2B2DA3228F00A36272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ED7C2C2DA3228F00A36272 /* Build configuration list for PBXNativeTarget "POTALoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED7C2D2DA3228F00A36272 /* Debug */,
+				E9ED7C2E2DA3228F00A36272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ED7C2F2DA3228F00A36272 /* Build configuration list for PBXNativeTarget "POTALoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED7C302DA3228F00A36272 /* Debug */,
+				E9ED7C312DA3228F00A36272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9ED7BF82DA3228E00A36272 /* Project object */;
+}
